@@ -3,7 +3,7 @@ import flet as ft
 
 def main(page: ft.Page):
     # the title of the app
-    page.title = "Flet Counter App"
+    page.title = "Flet DF App"
 
     # a light/bright theme
     page.theme_mode = "light"
