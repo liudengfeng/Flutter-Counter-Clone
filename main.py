@@ -38,7 +38,7 @@ def main(page: ft.Page):
 
     # adding our widgets/controls to the page/UI
     page.add(
-        ft.Text("You have pushed the button this many times:"),
+        ft.Text("尝试多次点击:"),
         counter_text
     )
 
