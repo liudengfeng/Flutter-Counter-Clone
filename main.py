@@ -19,7 +19,7 @@ def main(page: ft.Page):
 
     # the app's appbar
     page.appbar = ft.AppBar(
-        title=ft.Text("Flet Demo Home Page", color=ft.colors.WHITE),  # a title of white color
+        title=ft.Text("Flet 中国 Home Page", color=ft.colors.WHITE),  # a title of white color
         bgcolor=ft.colors.BLUE,  # a blue background color
         center_title=True  # center the title || without this, the title will be on the left
     )
