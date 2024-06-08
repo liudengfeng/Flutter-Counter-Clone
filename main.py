@@ -3,7 +3,8 @@ import os
 
 def main(page: ft.Page):
     # the title of the app
-    page.title = os.getenv("TEST")
+    # page.title = os.getenv("TEST")
+    page.title = "TEST"
 
     # a light/bright theme
     page.theme_mode = "light"
